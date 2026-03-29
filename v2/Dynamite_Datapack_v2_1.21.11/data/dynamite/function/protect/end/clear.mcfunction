@@ -1,0 +1,16 @@
+scoreboard players set $end_has_p1 dynamite_cfg 0
+scoreboard players set $end_has_p2 dynamite_cfg 0
+scoreboard players set $end_region_set dynamite_cfg 0
+scoreboard players set $end_p1_x dynamite_cfg 0
+scoreboard players set $end_p1_y dynamite_cfg 0
+scoreboard players set $end_p1_z dynamite_cfg 0
+scoreboard players set $end_p2_x dynamite_cfg 0
+scoreboard players set $end_p2_y dynamite_cfg 0
+scoreboard players set $end_p2_z dynamite_cfg 0
+scoreboard players set $end_min_x dynamite_cfg 0
+scoreboard players set $end_min_y dynamite_cfg 0
+scoreboard players set $end_min_z dynamite_cfg 0
+scoreboard players set $end_max_x dynamite_cfg 0
+scoreboard players set $end_max_y dynamite_cfg 0
+scoreboard players set $end_max_z dynamite_cfg 0
+tellraw @s {"text":"End protected region cleared.","color":"red"}

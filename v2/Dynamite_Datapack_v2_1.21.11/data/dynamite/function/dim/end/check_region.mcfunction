@@ -1,0 +1,2 @@
+function dynamite:_store_aligned_pos
+execute if score $temp_x dynamite_math >= $end_min_x dynamite_cfg if score $temp_x dynamite_math <= $end_max_x dynamite_cfg if score $temp_y dynamite_math >= $end_min_y dynamite_cfg if score $temp_y dynamite_math <= $end_max_y dynamite_cfg if score $temp_z dynamite_math >= $end_min_z dynamite_cfg if score $temp_z dynamite_math <= $end_max_z dynamite_cfg run scoreboard players set $can_break dynamite_math 0

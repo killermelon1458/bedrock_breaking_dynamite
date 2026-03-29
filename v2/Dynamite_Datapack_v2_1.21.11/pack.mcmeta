@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Dynamite datapack - custom TNT with protected blocks, per-dimension toggles, and protected regions",
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": [
+      94,
+      1
+    ]
+  }
+}

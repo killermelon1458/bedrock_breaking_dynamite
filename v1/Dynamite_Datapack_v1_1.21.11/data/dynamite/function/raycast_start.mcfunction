@@ -1,0 +1,25 @@
+tag @s remove dynamite_raycast_found
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^0.25 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^0.50 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^0.75 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^1.00 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^1.25 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^1.50 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^1.75 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^2.00 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^2.25 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^2.50 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^2.75 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^3.00 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^3.25 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^3.50 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^3.75 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^4.00 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^4.25 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^4.50 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^4.75 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^5.00 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^5.25 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^5.50 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^5.75 run function dynamite:raycast_check
+execute unless entity @s[tag=dynamite_raycast_found] anchored eyes positioned ^ ^ ^6.00 run function dynamite:raycast_check

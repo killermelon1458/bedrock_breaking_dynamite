@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TIT",
+    "ORO",
+    "TIT"
+  ],
+  "key": {
+    "T": "minecraft:tnt",
+    "I": "minecraft:iron_block",
+    "O": "minecraft:obsidian",
+    "R": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "minecraft:tnt",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Dynamite",
+        "color": "red"
+      },
+      "minecraft:custom_data": {
+        "dynamite": true
+      }
+    }
+  }
+}

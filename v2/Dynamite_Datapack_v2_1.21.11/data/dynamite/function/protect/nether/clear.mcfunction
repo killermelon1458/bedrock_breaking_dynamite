@@ -1,0 +1,16 @@
+scoreboard players set $nether_has_p1 dynamite_cfg 0
+scoreboard players set $nether_has_p2 dynamite_cfg 0
+scoreboard players set $nether_region_set dynamite_cfg 0
+scoreboard players set $nether_p1_x dynamite_cfg 0
+scoreboard players set $nether_p1_y dynamite_cfg 0
+scoreboard players set $nether_p1_z dynamite_cfg 0
+scoreboard players set $nether_p2_x dynamite_cfg 0
+scoreboard players set $nether_p2_y dynamite_cfg 0
+scoreboard players set $nether_p2_z dynamite_cfg 0
+scoreboard players set $nether_min_x dynamite_cfg 0
+scoreboard players set $nether_min_y dynamite_cfg 0
+scoreboard players set $nether_min_z dynamite_cfg 0
+scoreboard players set $nether_max_x dynamite_cfg 0
+scoreboard players set $nether_max_y dynamite_cfg 0
+scoreboard players set $nether_max_z dynamite_cfg 0
+tellraw @s {"text":"Nether protected region cleared.","color":"red"}

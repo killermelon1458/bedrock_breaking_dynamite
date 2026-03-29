@@ -1,0 +1,3 @@
+function dynamite:cleanup_markers
+execute as @e[type=tnt,tag=!dynamite_checked] at @s run function dynamite:check_tnt
+execute if score $config dynamite_state matches 1 as @e[type=tnt,tag=dynamite,nbt={fuse:1s}] at @s unless block ~.499 ~ ~.499 minecraft:water unless block ~-.499 ~ ~.499 minecraft:water unless block ~.499 ~ ~-.499 minecraft:water unless block ~-.499 ~ ~-.499 minecraft:water unless block ~.499 ~0.999 ~.499 minecraft:water unless block ~-.499 ~0.999 ~.499 minecraft:water unless block ~.499 ~0.999 ~-.499 minecraft:water unless block ~-.499 ~0.999 ~-.499 minecraft:water run function dynamite:explode

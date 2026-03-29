@@ -1,0 +1,16 @@
+scoreboard players set $ow_has_p1 dynamite_cfg 0
+scoreboard players set $ow_has_p2 dynamite_cfg 0
+scoreboard players set $ow_region_set dynamite_cfg 0
+scoreboard players set $ow_p1_x dynamite_cfg 0
+scoreboard players set $ow_p1_y dynamite_cfg 0
+scoreboard players set $ow_p1_z dynamite_cfg 0
+scoreboard players set $ow_p2_x dynamite_cfg 0
+scoreboard players set $ow_p2_y dynamite_cfg 0
+scoreboard players set $ow_p2_z dynamite_cfg 0
+scoreboard players set $ow_min_x dynamite_cfg 0
+scoreboard players set $ow_min_y dynamite_cfg 0
+scoreboard players set $ow_min_z dynamite_cfg 0
+scoreboard players set $ow_max_x dynamite_cfg 0
+scoreboard players set $ow_max_y dynamite_cfg 0
+scoreboard players set $ow_max_z dynamite_cfg 0
+tellraw @s {"text":"Overworld protected region cleared.","color":"red"}
